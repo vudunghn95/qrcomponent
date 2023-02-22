@@ -6,30 +6,37 @@
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(212deg, 45%, 89%);
   text-align: center;
 }
 
 .qr {
-  margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 20%;
+  max-width: 25rem;
   background-color: hsl(0deg, 0%, 100%);
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
 }
 .qr img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
-.qr h2 {
+.qr h1 {
   color: hsl(218deg, 44%, 22%);
   margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 .qr p {
   color: hsl(220deg, 15%, 55%);
   font-size: 0.9rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 2rem;
 }/*# sourceMappingURL=index.css.map */

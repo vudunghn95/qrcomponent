@@ -7,29 +7,35 @@
   font-family: "Kanit", sans-serif;
 }
 body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
   background-color: $light-gray;
   text-align: center;
 }
 .qr {
-  margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 20%;
+  max-width: 25rem;
   background-color: $white;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   img {
-    width: 100%;
+    max-width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
   }
-  h2 {
+  h1 {
     color: $dark-blue;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
   }
   p {
     color: $grayist-blue;
     font-size: 0.9rem;
   }
+}
+.attribution {
+  position: absolute;
+  bottom: 2rem;
 }
